@@ -1,1 +1,1 @@
-# landing-page
+In this project, I create a web page from scratch with the aim of making it look as similar as possible to a provided design.
