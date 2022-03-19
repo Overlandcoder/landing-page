@@ -124,7 +124,7 @@ h3 {
 .quote {
   background-color: #E5E7EB;
   color: #334153;
-  padding: 120px 340px 100px 340px;
+  padding: 120px 380px 100px 380px;
   font-size: 38px;
   font-style: italic;
 }
@@ -141,17 +141,25 @@ h3 {
   padding: 100px 300px 100px 300px;
 }
 
-.cta-bg {
+.cta-main {
   background-color: #3882F6;
-  padding: 50px 150px;
+  padding: 60px 150px;
   border-radius: 15px;
   color: #F9FAF8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.cta-text {
+.cta-text p {
   font-size: 22px;
+  width: 700px;
+  color: #E5E7EB;
+  margin-top: 4px;
 }
 
 .btn-bottom {
   font-size: 22px;
+  border: 3px solid #F9FAF8;
+  border-radius: 15px;
 }
