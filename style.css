@@ -56,7 +56,15 @@ button, input[type="submit"], input[type="reset"] {
 
 h1 {
   color: #F9FAF8;
-  font-size: 48px;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+h3 {
+  font-size: 28px;
 }
 
 .summary p {
@@ -71,13 +79,13 @@ h1 {
   padding: 150px 275px 150px 275px;
 }
 
-.btn.top {
+.btn-top {
   margin-top: 5px;
 }
 
-.second-section {
+.random-info {
   display: flex;
-  padding: 0 275px 170px 275px;
+  padding: 0 275px 150px 275px;
   justify-content: center;
   color: #1F2937;
   text-align: center;
@@ -90,8 +98,9 @@ h1 {
   height: 350px;
 }
 
-.second-section img {
+.random-info img {
   width: 300px;
+  height: 200px;
   object-fit: cover;
   object-position: 100% 0;
   border-radius: 15px;
@@ -112,20 +121,37 @@ h1 {
   padding: 60px 0;
 }
 
-.third-section {
+.quote {
   background-color: #E5E7EB;
   color: #334153;
-  padding: 150px 330px 100px 330px;
+  padding: 120px 340px 100px 340px;
   font-size: 38px;
   font-style: italic;
 }
 
-
-
-.third-section .author {
+.quote .author {
   text-align: right;
   font-size: 28px;
   font-weight: bolder;
   font-style: normal;
   padding-top: 10px;
+}
+
+.cta {
+  padding: 100px 300px 100px 300px;
+}
+
+.cta-bg {
+  background-color: #3882F6;
+  padding: 50px 150px;
+  border-radius: 15px;
+  color: #F9FAF8;
+}
+
+.cta-text {
+  font-size: 22px;
+}
+
+.btn-bottom {
+  font-size: 22px;
 }
