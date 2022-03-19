@@ -55,6 +55,8 @@ button, input[type="submit"], input[type="reset"] {
   flex-flow: column wrap;
   width: 500px;
   gap: 15px;
+  font-size: 22px;
+  color: #E5E7EB;
 }
 
 h1 {
@@ -80,7 +82,7 @@ h1 {
 
 .second-section {
   display: flex;
-  padding: 100px 275px 100px 275px;
+  padding: 0 275px 100px 275px;
   justify-content: center;
   color: #1F2937;
   text-align: center;
@@ -96,8 +98,19 @@ h1 {
   object-fit: cover;
   object-position: 100% 0;
   border-radius: 15px;
+  margin-bottom: 10px;
 }
 
 .text {
   font-size: 22px;
+}
+
+.sub-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: bolder;
+  padding: 60px 0;
 }
